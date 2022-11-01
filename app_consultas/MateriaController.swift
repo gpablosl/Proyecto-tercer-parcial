@@ -9,11 +9,19 @@
 import Foundation
 import UIKit
 
+
 class MateriaController : UIViewController, UITableViewDelegate, UITableViewDataSource{
     @IBOutlet weak var tvMaterias: UITableView!
     
+    var asistencia : Bool
+
+    @IBAction func swAsistencia(_ sender: Any) {
+        asistencia = true
+    }
+    
     var materias : [Materia] = []
     
+
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
@@ -35,7 +43,6 @@ class MateriaController : UIViewController, UITableViewDelegate, UITableViewData
             return celda!
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,3 +51,4 @@ class MateriaController : UIViewController, UITableViewDelegate, UITableViewData
         materias.append(Materia(nombre: "Programación", hora: "12:00-14:00"))
     }
 }
+
