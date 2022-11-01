@@ -16,12 +16,13 @@
 		3D271DB4291163E80003C9EC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB3291163E80003C9EC /* Menu.swift */; };
 		3D271DB6291164090003C9EC /* Docente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB5291164090003C9EC /* Docente.swift */; };
 		3D271DB8291164150003C9EC /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB7291164150003C9EC /* Perfil.swift */; };
-		3D271DBA291164370003C9EC /* MenuCeldaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB9291164370003C9EC /* MenuCeldaController.swift */; };
 		3D350432290AD664007C4FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D350431290AD664007C4FC7 /* AppDelegate.swift */; };
 		3D350434290AD664007C4FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D350433290AD664007C4FC7 /* ViewController.swift */; };
 		3D350437290AD664007C4FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D350435290AD664007C4FC7 /* Main.storyboard */; };
 		3D350439290AD668007C4FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D350438290AD668007C4FC7 /* Assets.xcassets */; };
 		3D35043C290AD668007C4FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D35043A290AD668007C4FC7 /* LaunchScreen.storyboard */; };
+		FB9C4661291178DA00D3E6A3 /* CeldaMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C4660291178DA00D3E6A3 /* CeldaMenuController.swift */; };
+		FB9C4663291179B200D3E6A3 /* MateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C4662291179B200D3E6A3 /* MateriaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +35,6 @@
 		3D271DB3291163E80003C9EC /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		3D271DB5291164090003C9EC /* Docente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docente.swift; sourceTree = "<group>"; };
 		3D271DB7291164150003C9EC /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
-		3D271DB9291164370003C9EC /* MenuCeldaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCeldaController.swift; sourceTree = "<group>"; };
 		3D35042E290AD664007C4FC7 /* app_consultas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_consultas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D350431290AD664007C4FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D350433290AD664007C4FC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +42,8 @@
 		3D350438290AD668007C4FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D35043B290AD668007C4FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D35043D290AD668007C4FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9C4660291178DA00D3E6A3 /* CeldaMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMenuController.swift; sourceTree = "<group>"; };
+		FB9C4662291179B200D3E6A3 /* MateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,14 +84,15 @@
 				3D35043A290AD668007C4FC7 /* LaunchScreen.storyboard */,
 				3D35043D290AD668007C4FC7 /* Info.plist */,
 				3D271DA9291162AD0003C9EC /* FaltasController.swift */,
-				3D271DAB291162C00003C9EC /* MenuController.swift */,
+				3D271DB5291164090003C9EC /* Docente.swift */,
 				3D271DAD291162DA0003C9EC /* DocenteController.swift */,
 				3D271DAF291163780003C9EC /* Materia.swift */,
+				FB9C4662291179B200D3E6A3 /* MateriaController.swift */,
 				3D271DB12911639D0003C9EC /* CeldaMateriaController.swift */,
+				FB9C4660291178DA00D3E6A3 /* CeldaMenuController.swift */,
 				3D271DB3291163E80003C9EC /* Menu.swift */,
-				3D271DB5291164090003C9EC /* Docente.swift */,
+				3D271DAB291162C00003C9EC /* MenuController.swift */,
 				3D271DB7291164150003C9EC /* Perfil.swift */,
-				3D271DB9291164370003C9EC /* MenuCeldaController.swift */,
 			);
 			path = app_consultas;
 			sourceTree = "<group>";
@@ -168,10 +171,11 @@
 				3D271DAE291162DA0003C9EC /* DocenteController.swift in Sources */,
 				3D271DAC291162C00003C9EC /* MenuController.swift in Sources */,
 				3D271DAA291162AD0003C9EC /* FaltasController.swift in Sources */,
+				FB9C4663291179B200D3E6A3 /* MateriaController.swift in Sources */,
 				3D350434290AD664007C4FC7 /* ViewController.swift in Sources */,
 				3D271DB8291164150003C9EC /* Perfil.swift in Sources */,
 				3D271DB0291163780003C9EC /* Materia.swift in Sources */,
-				3D271DBA291164370003C9EC /* MenuCeldaController.swift in Sources */,
+				FB9C4661291178DA00D3E6A3 /* CeldaMenuController.swift in Sources */,
 				3D350432290AD664007C4FC7 /* AppDelegate.swift in Sources */,
 				3D271DB6291164090003C9EC /* Docente.swift in Sources */,
 				3D271DB4291163E80003C9EC /* Menu.swift in Sources */,

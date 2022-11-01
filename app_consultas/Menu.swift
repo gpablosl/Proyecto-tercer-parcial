@@ -9,10 +9,11 @@
 class Menu{
     var nombre : String
     var precio : String
-    var img : 
-    init(nombre: String, precio: String){
+    var img : String
+    init(nombre: String, precio: String, img: String){
         self.nombre = nombre
         self.precio = precio
+        self.img = img
     }
     
 }

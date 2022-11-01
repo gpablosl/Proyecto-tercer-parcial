@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+import UIKit
+
+class CeldaMateriaController: UITableViewCell {
+    @IBOutlet weak var lblMateria: UILabel!
+    
+    @IBOutlet weak var lblHorario: UILabel!
+    
+    @IBOutlet weak var swAsistencia: UISwitch!
+}
