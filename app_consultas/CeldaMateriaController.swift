@@ -15,5 +15,6 @@ class CeldaMateriaController: UITableViewCell {
     
     @IBOutlet weak var lblHorario: UILabel!
     
-    @IBOutlet weak var swAsistencia: UISwitch!
+    @IBAction func swAsistencia(_ sender: Any) {
+    }
 }
