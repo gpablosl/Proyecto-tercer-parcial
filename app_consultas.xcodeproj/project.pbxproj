@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D271DA8291162910003C9EC /* HorarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DA7291162910003C9EC /* HorarioController.swift */; };
+		3D271DAA291162AD0003C9EC /* FaltasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DA9291162AD0003C9EC /* FaltasController.swift */; };
+		3D271DAC291162C00003C9EC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DAB291162C00003C9EC /* MenuController.swift */; };
+		3D271DAE291162DA0003C9EC /* DocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DAD291162DA0003C9EC /* DocenteController.swift */; };
+		3D271DB0291163780003C9EC /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DAF291163780003C9EC /* Materia.swift */; };
+		3D271DB22911639D0003C9EC /* CeldaMateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB12911639D0003C9EC /* CeldaMateriaController.swift */; };
+		3D271DB4291163E80003C9EC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB3291163E80003C9EC /* Menu.swift */; };
+		3D271DB6291164090003C9EC /* Docente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB5291164090003C9EC /* Docente.swift */; };
+		3D271DB8291164150003C9EC /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB7291164150003C9EC /* Perfil.swift */; };
+		3D271DBA291164370003C9EC /* MenuCeldaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB9291164370003C9EC /* MenuCeldaController.swift */; };
 		3D350432290AD664007C4FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D350431290AD664007C4FC7 /* AppDelegate.swift */; };
 		3D350434290AD664007C4FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D350433290AD664007C4FC7 /* ViewController.swift */; };
 		3D350437290AD664007C4FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D350435290AD664007C4FC7 /* Main.storyboard */; };
@@ -15,6 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D271DA7291162910003C9EC /* HorarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioController.swift; sourceTree = "<group>"; };
+		3D271DA9291162AD0003C9EC /* FaltasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaltasController.swift; sourceTree = "<group>"; };
+		3D271DAB291162C00003C9EC /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		3D271DAD291162DA0003C9EC /* DocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocenteController.swift; sourceTree = "<group>"; };
+		3D271DAF291163780003C9EC /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
+		3D271DB12911639D0003C9EC /* CeldaMateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMateriaController.swift; sourceTree = "<group>"; };
+		3D271DB3291163E80003C9EC /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3D271DB5291164090003C9EC /* Docente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docente.swift; sourceTree = "<group>"; };
+		3D271DB7291164150003C9EC /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
+		3D271DB9291164370003C9EC /* MenuCeldaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCeldaController.swift; sourceTree = "<group>"; };
 		3D35042E290AD664007C4FC7 /* app_consultas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_consultas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D350431290AD664007C4FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D350433290AD664007C4FC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +74,22 @@
 		3D350430290AD664007C4FC7 /* app_consultas */ = {
 			isa = PBXGroup;
 			children = (
+				3D271DA7291162910003C9EC /* HorarioController.swift */,
 				3D350431290AD664007C4FC7 /* AppDelegate.swift */,
 				3D350433290AD664007C4FC7 /* ViewController.swift */,
 				3D350435290AD664007C4FC7 /* Main.storyboard */,
 				3D350438290AD668007C4FC7 /* Assets.xcassets */,
 				3D35043A290AD668007C4FC7 /* LaunchScreen.storyboard */,
 				3D35043D290AD668007C4FC7 /* Info.plist */,
+				3D271DA9291162AD0003C9EC /* FaltasController.swift */,
+				3D271DAB291162C00003C9EC /* MenuController.swift */,
+				3D271DAD291162DA0003C9EC /* DocenteController.swift */,
+				3D271DAF291163780003C9EC /* Materia.swift */,
+				3D271DB12911639D0003C9EC /* CeldaMateriaController.swift */,
+				3D271DB3291163E80003C9EC /* Menu.swift */,
+				3D271DB5291164090003C9EC /* Docente.swift */,
+				3D271DB7291164150003C9EC /* Perfil.swift */,
+				3D271DB9291164370003C9EC /* MenuCeldaController.swift */,
 			);
 			path = app_consultas;
 			sourceTree = "<group>";
@@ -135,8 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D271DAE291162DA0003C9EC /* DocenteController.swift in Sources */,
+				3D271DAC291162C00003C9EC /* MenuController.swift in Sources */,
+				3D271DAA291162AD0003C9EC /* FaltasController.swift in Sources */,
 				3D350434290AD664007C4FC7 /* ViewController.swift in Sources */,
+				3D271DB8291164150003C9EC /* Perfil.swift in Sources */,
+				3D271DB0291163780003C9EC /* Materia.swift in Sources */,
+				3D271DBA291164370003C9EC /* MenuCeldaController.swift in Sources */,
 				3D350432290AD664007C4FC7 /* AppDelegate.swift in Sources */,
+				3D271DB6291164090003C9EC /* Docente.swift in Sources */,
+				3D271DB4291163E80003C9EC /* Menu.swift in Sources */,
+				3D271DA8291162910003C9EC /* HorarioController.swift in Sources */,
+				3D271DB22911639D0003C9EC /* CeldaMateriaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
