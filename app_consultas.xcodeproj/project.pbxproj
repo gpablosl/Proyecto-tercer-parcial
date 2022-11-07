@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D271DA8291162910003C9EC /* HorarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DA7291162910003C9EC /* HorarioController.swift */; };
-		3D271DAA291162AD0003C9EC /* FaltasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DA9291162AD0003C9EC /* FaltasController.swift */; };
+		3D271DAA291162AD0003C9EC /* AsistenciasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DA9291162AD0003C9EC /* AsistenciasController.swift */; };
 		3D271DAC291162C00003C9EC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DAB291162C00003C9EC /* MenuController.swift */; };
 		3D271DAE291162DA0003C9EC /* DocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DAD291162DA0003C9EC /* DocenteController.swift */; };
 		3D271DB0291163780003C9EC /* Materia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DAF291163780003C9EC /* Materia.swift */; };
@@ -21,13 +20,13 @@
 		3D350437290AD664007C4FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D350435290AD664007C4FC7 /* Main.storyboard */; };
 		3D350439290AD668007C4FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D350438290AD668007C4FC7 /* Assets.xcassets */; };
 		3D35043C290AD668007C4FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D35043A290AD668007C4FC7 /* LaunchScreen.storyboard */; };
+		FB7BDA1F291958B200D8C47F /* CeldaDocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BDA1E291958B200D8C47F /* CeldaDocenteController.swift */; };
 		FB9C4661291178DA00D3E6A3 /* CeldaMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C4660291178DA00D3E6A3 /* CeldaMenuController.swift */; };
 		FB9C4663291179B200D3E6A3 /* MateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C4662291179B200D3E6A3 /* MateriaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D271DA7291162910003C9EC /* HorarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioController.swift; sourceTree = "<group>"; };
-		3D271DA9291162AD0003C9EC /* FaltasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaltasController.swift; sourceTree = "<group>"; };
+		3D271DA9291162AD0003C9EC /* AsistenciasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsistenciasController.swift; sourceTree = "<group>"; };
 		3D271DAB291162C00003C9EC /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		3D271DAD291162DA0003C9EC /* DocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocenteController.swift; sourceTree = "<group>"; };
 		3D271DAF291163780003C9EC /* Materia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materia.swift; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		3D350438290AD668007C4FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D35043B290AD668007C4FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D35043D290AD668007C4FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7BDA1E291958B200D8C47F /* CeldaDocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaDocenteController.swift; sourceTree = "<group>"; };
 		FB9C4660291178DA00D3E6A3 /* CeldaMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMenuController.swift; sourceTree = "<group>"; };
 		FB9C4662291179B200D3E6A3 /* MateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,15 +76,15 @@
 		3D350430290AD664007C4FC7 /* app_consultas */ = {
 			isa = PBXGroup;
 			children = (
-				3D271DA7291162910003C9EC /* HorarioController.swift */,
 				3D350431290AD664007C4FC7 /* AppDelegate.swift */,
 				3D350433290AD664007C4FC7 /* ViewController.swift */,
 				3D350435290AD664007C4FC7 /* Main.storyboard */,
 				3D350438290AD668007C4FC7 /* Assets.xcassets */,
 				3D35043A290AD668007C4FC7 /* LaunchScreen.storyboard */,
 				3D35043D290AD668007C4FC7 /* Info.plist */,
-				3D271DA9291162AD0003C9EC /* FaltasController.swift */,
+				3D271DA9291162AD0003C9EC /* AsistenciasController.swift */,
 				3D271DB5291164090003C9EC /* Docente.swift */,
+				FB7BDA1E291958B200D8C47F /* CeldaDocenteController.swift */,
 				3D271DAD291162DA0003C9EC /* DocenteController.swift */,
 				3D271DAF291163780003C9EC /* Materia.swift */,
 				FB9C4662291179B200D3E6A3 /* MateriaController.swift */,
@@ -170,8 +170,9 @@
 			files = (
 				3D271DAE291162DA0003C9EC /* DocenteController.swift in Sources */,
 				3D271DAC291162C00003C9EC /* MenuController.swift in Sources */,
-				3D271DAA291162AD0003C9EC /* FaltasController.swift in Sources */,
+				3D271DAA291162AD0003C9EC /* AsistenciasController.swift in Sources */,
 				FB9C4663291179B200D3E6A3 /* MateriaController.swift in Sources */,
+				FB7BDA1F291958B200D8C47F /* CeldaDocenteController.swift in Sources */,
 				3D350434290AD664007C4FC7 /* ViewController.swift in Sources */,
 				3D271DB8291164150003C9EC /* Perfil.swift in Sources */,
 				3D271DB0291163780003C9EC /* Materia.swift in Sources */,
@@ -179,7 +180,6 @@
 				3D350432290AD664007C4FC7 /* AppDelegate.swift in Sources */,
 				3D271DB6291164090003C9EC /* Docente.swift in Sources */,
 				3D271DB4291163E80003C9EC /* Menu.swift in Sources */,
-				3D271DA8291162910003C9EC /* HorarioController.swift in Sources */,
 				3D271DB22911639D0003C9EC /* CeldaMateriaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

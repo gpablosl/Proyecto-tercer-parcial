@@ -15,6 +15,9 @@ class CeldaMateriaController: UITableViewCell {
     
     @IBOutlet weak var lblHorario: UILabel!
     
-    @IBAction func swAsistencia(_ sender: Any) {
-    }
+    @IBOutlet weak var lblFaltas: UILabel!
+    
+    @IBOutlet weak var imgCheck: UIImageView!
+    
 }
+
