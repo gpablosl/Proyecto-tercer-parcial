@@ -39,7 +39,6 @@ class AsistenciasController: UIViewController {
                 lblHorario.text = materias!.hora
                 lblMaestro.text = materias!.maestro
                 imgCheck.image = UIImage(named: materias!.img)
-                lblCheck.text = materias!.img
 
                 if materias?.img == "check" {
                     checked = true
@@ -57,7 +56,6 @@ class AsistenciasController: UIViewController {
         if callBackAsistencia != nil {
         checked = !checked
         imgCheck.image = checked ? UIImage(named: "check"):UIImage(named: "notchecked")
-            lblCheck.text = checked ? "check":"notchecked"
             materias?.img = checked ? "check": "notchecked"
 
             callBackAsistencia!(materias!)

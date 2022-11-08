@@ -20,6 +20,7 @@
 		3D350437290AD664007C4FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D350435290AD664007C4FC7 /* Main.storyboard */; };
 		3D350439290AD668007C4FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D350438290AD668007C4FC7 /* Assets.xcassets */; };
 		3D35043C290AD668007C4FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D35043A290AD668007C4FC7 /* LaunchScreen.storyboard */; };
+		FB796DF3291AA9B70031B240 /* PerfilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB796DF2291AA9B70031B240 /* PerfilController.swift */; };
 		FB7BDA1F291958B200D8C47F /* CeldaDocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7BDA1E291958B200D8C47F /* CeldaDocenteController.swift */; };
 		FB9C4661291178DA00D3E6A3 /* CeldaMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C4660291178DA00D3E6A3 /* CeldaMenuController.swift */; };
 		FB9C4663291179B200D3E6A3 /* MateriaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9C4662291179B200D3E6A3 /* MateriaController.swift */; };
@@ -41,6 +42,7 @@
 		3D350438290AD668007C4FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D35043B290AD668007C4FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D35043D290AD668007C4FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB796DF2291AA9B70031B240 /* PerfilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilController.swift; sourceTree = "<group>"; };
 		FB7BDA1E291958B200D8C47F /* CeldaDocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaDocenteController.swift; sourceTree = "<group>"; };
 		FB9C4660291178DA00D3E6A3 /* CeldaMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaMenuController.swift; sourceTree = "<group>"; };
 		FB9C4662291179B200D3E6A3 /* MateriaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriaController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				3D271DB3291163E80003C9EC /* Menu.swift */,
 				3D271DAB291162C00003C9EC /* MenuController.swift */,
 				3D271DB7291164150003C9EC /* Perfil.swift */,
+				FB796DF2291AA9B70031B240 /* PerfilController.swift */,
 			);
 			path = app_consultas;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				3D271DB8291164150003C9EC /* Perfil.swift in Sources */,
 				3D271DB0291163780003C9EC /* Materia.swift in Sources */,
 				FB9C4661291178DA00D3E6A3 /* CeldaMenuController.swift in Sources */,
+				FB796DF3291AA9B70031B240 /* PerfilController.swift in Sources */,
 				3D350432290AD664007C4FC7 /* AppDelegate.swift in Sources */,
 				3D271DB6291164090003C9EC /* Docente.swift in Sources */,
 				3D271DB4291163E80003C9EC /* Menu.swift in Sources */,
