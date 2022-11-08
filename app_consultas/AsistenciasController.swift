@@ -11,9 +11,14 @@ import UIKit
 
 class AsistenciasController: UIViewController {
     
+
     var checked = false
     
+    
     var materias : Materia?
+    
+    var callBackAsistencia : ((Materia) -> Void)?
+
     
     @IBOutlet weak var lblMateria: UILabel!
     
@@ -22,6 +27,8 @@ class AsistenciasController: UIViewController {
     @IBOutlet weak var lblMaestro: UILabel!
     
     @IBOutlet weak var imgCheck: UIImageView!
+    
+    @IBOutlet weak var lblCheck: UILabel!
     
     override func viewDidLoad() {
             super.viewDidLoad()
@@ -32,7 +39,12 @@ class AsistenciasController: UIViewController {
                 lblHorario.text = materias!.hora
                 lblMaestro.text = materias!.maestro
                 imgCheck.image = UIImage(named: materias!.img)
+                lblCheck.text = materias!.img
 
+                if materias?.img == "check" {
+                    checked = true
+                }
+                
                  
              }else{
                  self.title = "Detalles de Materia"
@@ -41,10 +53,14 @@ class AsistenciasController: UIViewController {
         }
     
 
-    @IBAction func doTapCheck(_ sender: Any) {
+    @IBAction func doTapCheck(_ sender: Any){
+        if callBackAsistencia != nil {
         checked = !checked
         imgCheck.image = checked ? UIImage(named: "check"):UIImage(named: "notchecked")
+            lblCheck.text = checked ? "check":"notchecked"
+            materias?.img = checked ? "check": "notchecked"
+
+            callBackAsistencia!(materias!)
+        }
     }
-    
-    
 }

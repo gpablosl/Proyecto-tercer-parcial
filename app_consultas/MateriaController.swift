@@ -50,6 +50,8 @@ class MateriaController : UIViewController, UITableViewDelegate, UITableViewData
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destino = segue.destination as! AsistenciasController
         destino.materias = materias[tvMaterias.indexPathForSelectedRow!.row]
+        destino.callBackAsistencia = editarAsistencia
+
     }
     
     override func viewDidLoad() {
@@ -59,6 +61,10 @@ class MateriaController : UIViewController, UITableViewDelegate, UITableViewData
         materias.append(Materia(nombre: "Geografia", hora: "10:00-12:00", faltas : 2, img: "notchecked", maestro: "Derek Rincon"))
         materias.append(Materia(nombre: "Programación", hora: "12:00-14:00", faltas : 3, img: "notchecked", maestro: "Rebecca Villa"))
         materias.append(Materia(nombre: "Animacion", hora: "14:00-16:00", faltas : 3, img: "notchecked", maestro: "Vicente Plascencia"))
+    }
+    
+    func editarAsistencia(materia: Materia){
+        tvMaterias.reloadData()
     }
 }
 
