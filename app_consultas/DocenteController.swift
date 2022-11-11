@@ -37,16 +37,25 @@ class DocenteController : UIViewController, UITableViewDelegate, UITableViewData
             return celda!
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destino = segue.destination as! ConsultarDocenteController
+        destino.docente = docentes[tvDocentes.indexPathForSelectedRow!.row]
+        destino.callBackVerDocente = verDocente
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        docentes.append(Docente(nombre: "Helena Zenteno", materia: "Historia", asistencia: 5, puntualidad: 5, ejercicios: 5, trabajoEquipo: 5, recursos: 5, claridad: 5, relevancia: 5, comentario: ""))
+        docentes.append(Docente(nombre: "Helena Zenteno", materia: "Historia", asistencia: 4, puntualidad: 5, ejercicios: 5, trabajoEquipo: 5, recursos: 4, claridad: 4, relevancia: 4, comentario: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "))
 
-        docentes.append(Docente(nombre: "Derek Rincon", materia: "Geografia", asistencia: 5, puntualidad: 5, ejercicios: 5, trabajoEquipo: 5, recursos: 5, claridad: 5, relevancia: 5, comentario: ""))
+        docentes.append(Docente(nombre: "Derek Rincon", materia: "Geografia", asistencia: 5, puntualidad: 5, ejercicios: 5, trabajoEquipo: 5, recursos: 5, claridad: 5, relevancia: 5, comentario: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "))
         
-        docentes.append(Docente(nombre: "Rebecca Villa", materia: "Programación", asistencia: 5, puntualidad: 5, ejercicios: 5, trabajoEquipo: 5, recursos: 5, claridad: 5, relevancia: 5, comentario: ""))
+        docentes.append(Docente(nombre: "Rebecca Villa", materia: "Programación", asistencia: 5, puntualidad: 5, ejercicios: 5, trabajoEquipo: 3, recursos: 3, claridad: 5, relevancia: 3, comentario: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "))
         
-        docentes.append(Docente(nombre: "Vicente Plascencia", materia: "Animacion", asistencia: 5, puntualidad: 5, ejercicios: 5, trabajoEquipo: 5, recursos: 5, claridad: 5, relevancia: 5, comentario: ""))
+        docentes.append(Docente(nombre: "Vicente Plascencia", materia: "Animacion", asistencia: 2, puntualidad: 5, ejercicios: 5, trabajoEquipo: 5, recursos: 2, claridad: 5, relevancia: 2, comentario: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "))
+    }
+    
+    func verDocente(docente: Docente){
+        tvDocentes.reloadData()
     }
 }
