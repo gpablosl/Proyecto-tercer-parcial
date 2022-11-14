@@ -102,7 +102,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Horario"/>
                                         <connections>
-                                            <segue destination="YQ4-f8-rLP" kind="show" id="LfO-om-5hb"/>
+                                            <segue destination="YQ4-f8-rLP" kind="show" identifier="horario" id="LfO-om-5hb"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -117,7 +117,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Menu"/>
                                         <connections>
-                                            <segue destination="5By-nq-A0D" kind="show" id="3Gb-Cp-bUC"/>
+                                            <segue destination="5By-nq-A0D" kind="show" identifier="menu" id="3Gb-Cp-bUC"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -132,7 +132,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Perfil"/>
                                         <connections>
-                                            <segue destination="ziE-Oo-rMX" kind="show" id="IqE-te-pMx"/>
+                                            <segue destination="ziE-Oo-rMX" kind="show" identifier="perfil" id="IqE-te-pMx"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -147,7 +147,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Evaluación docente"/>
                                         <connections>
-                                            <segue destination="Nox-j0-ytW" kind="show" id="FXe-u2-vir"/>
+                                            <segue destination="Nox-j0-ytW" kind="show" identifier="evaluacion" id="FXe-u2-vir"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -162,7 +162,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Calendario de pagos"/>
                                         <connections>
-                                            <segue destination="GGX-tQ-LPl" kind="show" id="A8P-tF-iUQ"/>
+                                            <segue destination="GGX-tQ-LPl" kind="show" identifier="pagos" id="A8P-tF-iUQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -178,7 +178,7 @@
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                         <state key="normal" title="Contactos"/>
                                         <connections>
-                                            <segue destination="42W-lc-PnM" kind="show" id="Aep-aY-tPL"/>
+                                            <segue destination="42W-lc-PnM" kind="show" identifier="contactos" id="Aep-aY-tPL"/>
                                         </connections>
                                     </button>
                                 </subviews>

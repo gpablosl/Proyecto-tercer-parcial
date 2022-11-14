@@ -14,7 +14,6 @@ class MateriaController : UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var tvMaterias: UITableView!
     
 
-
     var materias : [Materia] = []
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -51,10 +50,7 @@ class MateriaController : UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        materias.append(Materia(nombre: "Historia", hora: "8:00-10:00", faltas : 0, img: "notchecked", maestro: "Helena Zenteno"))
-        materias.append(Materia(nombre: "Geografia", hora: "10:00-12:00", faltas : 2, img: "notchecked", maestro: "Derek Rincon"))
-        materias.append(Materia(nombre: "Programación", hora: "12:00-14:00", faltas : 3, img: "notchecked", maestro: "Rebecca Villa"))
-        materias.append(Materia(nombre: "Animacion", hora: "14:00-16:00", faltas : 3, img: "notchecked", maestro: "Vicente Plascencia"))
+
     }
     
     func editarAsistencia(materia: Materia){

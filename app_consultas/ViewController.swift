@@ -12,16 +12,28 @@ class ViewController: UIViewController {
     
     public var docentes : [Docente] = []
     
+    public var materias : [Materia] = []
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destino = segue.destination as! DocenteController
-        destino.docentes = docentes
-
+        if segue.identifier == "evaluacion" {
+            let destino = segue.destination as! DocenteController
+            destino.docentes = docentes
+        }
+        if segue.identifier == "horario" {
+            let destino = segue.destination as! MateriaController
+            destino.materias = materias
+        }
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        materias.append(Materia(nombre: "Historia", hora: "8:00-10:00", faltas : 0, img: "notchecked", maestro: "Helena Zenteno"))
+        materias.append(Materia(nombre: "Geografia", hora: "10:00-12:00", faltas : 2, img: "notchecked", maestro: "Derek Rincon"))
+        materias.append(Materia(nombre: "Programación", hora: "12:00-14:00", faltas : 3, img: "notchecked", maestro: "Rebecca Villa"))
+        materias.append(Materia(nombre: "Animacion", hora: "14:00-16:00", faltas : 3, img: "notchecked", maestro: "Vicente Plascencia"))
         
         docentes.append(Docente(nombre: "Helena Zenteno", materia: "Historia", asistencia: "4", puntualidad: "5", ejercicios: "5", trabajoEquipo: "5", recursos: "4", claridad: "4", relevancia: "4", comentario: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "))
 
