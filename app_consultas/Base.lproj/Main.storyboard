@@ -30,28 +30,28 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ciclo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uag-E4-g2Y">
-                                                    <rect key="frame" x="29" y="11" width="141" height="21"/>
+                                                    <rect key="frame" x="29" y="11" width="215" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fecha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiV-dd-F1C">
-                                                    <rect key="frame" x="29" y="40" width="141" height="21"/>
+                                                    <rect key="frame" x="29" y="40" width="215" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fp-Un-zgG">
-                                                    <rect key="frame" x="208" y="11" width="141" height="21"/>
+                                                    <rect key="frame" x="252" y="16" width="141" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pagado?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JER-RO-jIQ">
-                                                    <rect key="frame" x="208" y="40" width="141" height="21"/>
+                                                    <rect key="frame" x="252" y="45" width="141" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mbz-hk-XdT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524.65116279069764" y="-1262.4463519313306"/>
+            <point key="canvasLocation" x="526" y="-1221"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -430,10 +430,10 @@
             </objects>
             <point key="canvasLocation" x="-315" y="1027"/>
         </scene>
-        <!--View Controller-->
+        <!--Editar Docente Controller-->
         <scene sceneID="eLR-vr-zDE">
             <objects>
-                <viewController id="Ixv-fe-lUP" sceneMemberID="viewController">
+                <viewController id="Ixv-fe-lUP" customClass="EditarDocenteController" customModule="app_consultas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cos-E7-0rZ">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -549,15 +549,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLO-dv-gIs">
+                                <rect key="frame" x="287" y="583" width="100" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Actualizar"/>
+                                <connections>
+                                    <action selector="doTapActualizar:" destination="Ixv-fe-lUP" eventType="touchUpInside" id="e1z-RG-iBx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Cjk-BQ-bmd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="y3G-b9-H2K"/>
+                    <connections>
+                        <outlet property="txtAsistencica" destination="wcR-eC-imG" id="9F5-0M-aFJ"/>
+                        <outlet property="txtComentario" destination="bcc-3S-Xdc" id="VoT-uQ-f7K"/>
+                        <outlet property="txtEjercicios" destination="H2F-sF-DYM" id="cKf-vt-uFo"/>
+                        <outlet property="txtExplicaciones" destination="GuG-Pq-XRq" id="ZV7-0M-nqy"/>
+                        <outlet property="txtPuntualidad" destination="mr0-1W-ona" id="R21-29-4Ru"/>
+                        <outlet property="txtRecursos" destination="pKe-VA-83f" id="tg2-BP-807"/>
+                        <outlet property="txtTemas" destination="ER2-kh-Fyg" id="zsY-sa-Ed9"/>
+                        <outlet property="txtTrabajoEquipo" destination="CWQ-pR-fdD" id="u2a-0z-wNd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zSo-rD-w7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492" y="1027"/>
+            <point key="canvasLocation" x="1491.6279069767443" y="1026.8240343347641"/>
         </scene>
         <!--Consultar Docente Controller-->
         <scene sceneID="EUY-Jl-FyE">

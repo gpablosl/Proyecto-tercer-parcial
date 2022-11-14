@@ -45,7 +45,7 @@ class PagosController : UIViewController, UITableViewDelegate, UITableViewDataSo
         pagos.append(Pagos(ciclo: "Pago de Segundo mes", pagado: "Pagado", fechaLimite: "16/09/2022", monto: 4200))
         pagos.append(Pagos(ciclo: "Pago de Tercer mes", pagado: "Pagado", fechaLimite: "13/10/2022", monto: 4400))
         pagos.append(Pagos(ciclo: "Pago de Cuarto mes", pagado: "Pagado", fechaLimite: "09/11/2022", monto: 4200))
-        pagos.append(Pagos(ciclo: "Pago de Quinto mes", pagado: "Pagado", fechaLimite: "02/12/2022", monto: 4000))
+        pagos.append(Pagos(ciclo: "Pago de Quinto mes", pagado: "No pagado", fechaLimite: "02/12/2022", monto: 4000))
 
     }
 }
