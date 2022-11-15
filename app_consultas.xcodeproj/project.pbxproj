@@ -24,6 +24,7 @@
 		FB4AE30A291ABBFA00F2D8AF /* ContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AE309291ABBFA00F2D8AF /* ContactoController.swift */; };
 		FB4AE30C291ABDA200F2D8AF /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AE30B291ABDA200F2D8AF /* CeldaContactoController.swift */; };
 		FB7787EE2923D6E0006CCE34 /* EditarContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7787ED2923D6E0006CCE34 /* EditarContactoController.swift */; };
+		FB7787F02923FA58006CCE34 /* Nexa-Trial-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7787EF2923FA58006CCE34 /* Nexa-Trial-Light.ttf */; };
 		FB7819E8292284F90064A976 /* EditarDocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7819E7292284F90064A976 /* EditarDocenteController.swift */; };
 		FB78C45B291E91A400F66BD0 /* Pagos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78C45A291E91A400F66BD0 /* Pagos.swift */; };
 		FB78C45D291E93B400F66BD0 /* PagosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78C45C291E93B400F66BD0 /* PagosController.swift */; };
@@ -55,6 +56,7 @@
 		FB4AE309291ABBFA00F2D8AF /* ContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoController.swift; sourceTree = "<group>"; };
 		FB4AE30B291ABDA200F2D8AF /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
 		FB7787ED2923D6E0006CCE34 /* EditarContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarContactoController.swift; sourceTree = "<group>"; };
+		FB7787EF2923FA58006CCE34 /* Nexa-Trial-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Light.ttf"; sourceTree = "<group>"; };
 		FB7819E7292284F90064A976 /* EditarDocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarDocenteController.swift; sourceTree = "<group>"; };
 		FB78C45A291E91A400F66BD0 /* Pagos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagos.swift; sourceTree = "<group>"; };
 		FB78C45C291E93B400F66BD0 /* PagosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		3D350430290AD664007C4FC7 /* app_consultas */ = {
 			isa = PBXGroup;
 			children = (
+				FB7787EF2923FA58006CCE34 /* Nexa-Trial-Light.ttf */,
 				3D350431290AD664007C4FC7 /* AppDelegate.swift */,
 				3D350433290AD664007C4FC7 /* ViewController.swift */,
 				3D350435290AD664007C4FC7 /* Main.storyboard */,
@@ -187,6 +190,7 @@
 			files = (
 				3D35043C290AD668007C4FC7 /* LaunchScreen.storyboard in Resources */,
 				3D350439290AD668007C4FC7 /* Assets.xcassets in Resources */,
+				FB7787F02923FA58006CCE34 /* Nexa-Trial-Light.ttf in Resources */,
 				3D350437290AD664007C4FC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
