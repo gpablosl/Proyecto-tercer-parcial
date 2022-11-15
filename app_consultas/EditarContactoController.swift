@@ -10,9 +10,6 @@ import UIKit
 
 class EditarContactoController : UIViewController {
     
-    var texto1 : String?
-    var texto2 : String?
-    var texto3 : String?
     
     @IBOutlet weak var txtNombre: UITextField!
         
@@ -26,13 +23,6 @@ class EditarContactoController : UIViewController {
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        
-        if  contacto != nil {
-            txtNombre.text = contacto?.nombre
-            txtTelefono.text = contacto?.telefono
-            txtTelefono2.text = contacto?.telefono2
-
-        }
 
         }
         

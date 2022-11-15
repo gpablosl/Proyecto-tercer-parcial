@@ -44,14 +44,6 @@ class ConsultarDocenteController : UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destino = segue.destination as! EditarDocenteController
-        destino.texto1 = lblAsistencia.text
-        destino.texto2 = lblPuntualidad.text
-        destino.texto3 = lblEjercicios.text
-        destino.texto4 = lblTrabajoEquipo.text
-        destino.texto5 = lblRecursos.text
-        destino.texto6 = lblExplicaciones.text
-        destino.texto7 = lblTemas.text
-        destino.texto8 = txfcomentario.text
 
         destino.callbackActualizar1 = actualizarTexto1
         destino.callbackActualizar2 = actualizarTexto2

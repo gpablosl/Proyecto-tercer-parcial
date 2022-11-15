@@ -10,15 +10,6 @@ import UIKit
 
 class EditarDocenteController : UIViewController {
     
-    var texto1 : String?
-    var texto2 : String?
-    var texto3 : String?
-    var texto4 : String?
-    var texto5 : String?
-    var texto6 : String?
-    var texto7 : String?
-    var texto8 : String?
-    
     var callbackActualizar1 : ((String) -> Void)?
     var callbackActualizar2 : ((String) -> Void)?
     var callbackActualizar3 : ((String) -> Void)?
@@ -47,30 +38,6 @@ class EditarDocenteController : UIViewController {
     override func viewDidLoad(){
         super.viewDidLoad()
         
-        if texto1 != nil{
-            txtAsistencica.text = texto1
-        }
-        if texto2 != nil{
-            txtPuntualidad.text = texto2
-        }
-        if texto3 != nil{
-            txtEjercicios.text = texto3
-        }
-        if texto4 != nil{
-            txtTrabajoEquipo.text = texto4
-        }
-        if texto5 != nil{
-            txtRecursos.text = texto5
-        }
-        if texto6 != nil{
-            txtExplicaciones.text = texto6
-        }
-        if texto7 != nil{
-            txtTemas.text = texto7
-        }
-        if texto8 != nil{
-            txtComentario.text = texto8
-        }
         
     }
     
