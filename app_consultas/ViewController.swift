@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     
     public var materias : [Materia] = []
 
-    
+    public var contactos : [Contacto] = []
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "evaluacion" {
             let destino = segue.destination as! DocenteController
@@ -24,11 +25,18 @@ class ViewController: UIViewController {
             let destino = segue.destination as! MateriaController
             destino.materias = materias
         }
+        if segue.identifier == "contactos" {
+            let destino = segue.destination as! ContactoController
+            destino.contactos = contactos
+        }
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        contactos.append(Contacto(nombre: "Alejandro Villegas", telefono: "6553289064", telefono2: "6843365410", img: "tyler2"))
+        contactos.append(Contacto(nombre: "Juan Perez", telefono: "6334408673", telefono2: "6443209851", img: "tyler3"))
         
         materias.append(Materia(nombre: "Historia", hora: "8:00-10:00", faltas : 0, img: "notchecked", maestro: "Helena Zenteno"))
         materias.append(Materia(nombre: "Geografia", hora: "10:00-12:00", faltas : 2, img: "notchecked", maestro: "Derek Rincon"))

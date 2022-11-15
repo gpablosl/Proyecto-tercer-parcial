@@ -23,6 +23,7 @@
 		FB4AE308291ABBEC00F2D8AF /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AE307291ABBEC00F2D8AF /* Contacto.swift */; };
 		FB4AE30A291ABBFA00F2D8AF /* ContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AE309291ABBFA00F2D8AF /* ContactoController.swift */; };
 		FB4AE30C291ABDA200F2D8AF /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AE30B291ABDA200F2D8AF /* CeldaContactoController.swift */; };
+		FB7787EE2923D6E0006CCE34 /* EditarContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7787ED2923D6E0006CCE34 /* EditarContactoController.swift */; };
 		FB7819E8292284F90064A976 /* EditarDocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7819E7292284F90064A976 /* EditarDocenteController.swift */; };
 		FB78C45B291E91A400F66BD0 /* Pagos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78C45A291E91A400F66BD0 /* Pagos.swift */; };
 		FB78C45D291E93B400F66BD0 /* PagosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78C45C291E93B400F66BD0 /* PagosController.swift */; };
@@ -53,6 +54,7 @@
 		FB4AE307291ABBEC00F2D8AF /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 		FB4AE309291ABBFA00F2D8AF /* ContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoController.swift; sourceTree = "<group>"; };
 		FB4AE30B291ABDA200F2D8AF /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
+		FB7787ED2923D6E0006CCE34 /* EditarContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarContactoController.swift; sourceTree = "<group>"; };
 		FB7819E7292284F90064A976 /* EditarDocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarDocenteController.swift; sourceTree = "<group>"; };
 		FB78C45A291E91A400F66BD0 /* Pagos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagos.swift; sourceTree = "<group>"; };
 		FB78C45C291E93B400F66BD0 /* PagosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				FB796DF2291AA9B70031B240 /* PerfilController.swift */,
 				FB4AE307291ABBEC00F2D8AF /* Contacto.swift */,
 				FB4AE309291ABBFA00F2D8AF /* ContactoController.swift */,
+				FB7787ED2923D6E0006CCE34 /* EditarContactoController.swift */,
 				FB78C45A291E91A400F66BD0 /* Pagos.swift */,
 				FB78C45C291E93B400F66BD0 /* PagosController.swift */,
 				FB78C45E291E93C400F66BD0 /* CeldaPagosController.swift */,
@@ -202,6 +205,7 @@
 				3D271DAA291162AD0003C9EC /* AsistenciasController.swift in Sources */,
 				FB9C4663291179B200D3E6A3 /* MateriaController.swift in Sources */,
 				FB7BDA1F291958B200D8C47F /* CeldaDocenteController.swift in Sources */,
+				FB7787EE2923D6E0006CCE34 /* EditarContactoController.swift in Sources */,
 				FB7819E8292284F90064A976 /* EditarDocenteController.swift in Sources */,
 				3D350434290AD664007C4FC7 /* ViewController.swift in Sources */,
 				FB78C45F291E93C400F66BD0 /* CeldaPagosController.swift in Sources */,

@@ -18,5 +18,4 @@ class CeldaPagosController: UITableViewCell {
     @IBOutlet weak var lblMonto: UILabel!
     
     @IBOutlet weak var lbllPagado: UILabel!
-    
 }

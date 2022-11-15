@@ -10,12 +10,28 @@ import Foundation
 import UIKit
 
 class ContactoController : UIViewController, UITableViewDelegate, UITableViewDataSource{
-    @IBOutlet weak var tvMenu: UITableView!
     
+    @IBOutlet weak var tvContactos: UITableView!
     
     var contactos : [Contacto] = []
     
+    var callbackActualizar1 : ((String) -> Void)?
+    var callbackActualizar2 : ((String) -> Void)?
+    var callbackActualizar3 : ((String) -> Void)?
+    var callbackActualizar4 : ((String) -> Void)?
+    
+    var callBackVerContacto : ((Contacto) -> Void)?
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        
+        
+        if segue.identifier == "goToEditar"{
+            let destino = segue.destination as! EditarContactoController
+            destino.contacto = contactos[tvContactos.indexPathForSelectedRow!.row]
+            destino.callBackEditarContacto = editarContacto
+        }
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 125
     }
@@ -32,8 +48,8 @@ class ContactoController : UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaContacto") as? CeldaContactoController
             celda?.lblNombre.text = contactos[indexPath.row].nombre
-            celda?.lblTelefono1.text = "\(contactos[indexPath.row].telefono)"
-            celda?.lblTelefono2.text = "\(contactos[indexPath.row].telefono2)"
+            celda?.lblTelefono1.text = contactos[indexPath.row].telefono
+            celda?.lblTelefono2.text = contactos[indexPath.row].telefono2
             celda?.imgContacto.image = UIImage(named: contactos[indexPath.row].img)
             return celda!
     }
@@ -41,9 +57,10 @@ class ContactoController : UIViewController, UITableViewDelegate, UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        contactos.append(Contacto(nombre: "Alejandro Villegas", telefono: 6553289064, telefono2: 6843365410, img: "tyler2"))
-        contactos.append(Contacto(nombre: "Juan Perez", telefono: 6334408673, telefono2: 6443209851, img: "tyler3"))
-
     }
+    
+    func editarContacto(contacto: Contacto){
+        tvContactos.reloadData()
+    }
+    
 }

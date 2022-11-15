@@ -10,11 +10,11 @@ import Foundation
 
 class Contacto{
     var nombre : String
-    var telefono : Int
-    var telefono2 : Int
+    var telefono : String
+    var telefono2 : String
     var img : String
     
-    init(nombre: String, telefono: Int, telefono2: Int, img : String){
+    init(nombre: String, telefono: String, telefono2: String, img : String){
         self.nombre = nombre
         self.telefono = telefono
         self.telefono2 = telefono2
