@@ -45,7 +45,7 @@
 		3D271DB3291163E80003C9EC /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		3D271DB5291164090003C9EC /* Docente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docente.swift; sourceTree = "<group>"; };
 		3D271DB7291164150003C9EC /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
-		3D35042E290AD664007C4FC7 /* app_consultas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_consultas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D35042E290AD664007C4FC7 /* Evertracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evertracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D350431290AD664007C4FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D350433290AD664007C4FC7 /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
 		3D350436290AD664007C4FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		3D35042F290AD664007C4FC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D35042E290AD664007C4FC7 /* app_consultas.app */,
+				3D35042E290AD664007C4FC7 /* Evertracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D35042D290AD663007C4FC7 /* app_consultas */ = {
+		3D35042D290AD663007C4FC7 /* Evertracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D350440290AD668007C4FC7 /* Build configuration list for PBXNativeTarget "app_consultas" */;
+			buildConfigurationList = 3D350440290AD668007C4FC7 /* Build configuration list for PBXNativeTarget "Evertracker" */;
 			buildPhases = (
 				3D35042A290AD663007C4FC7 /* Sources */,
 				3D35042B290AD663007C4FC7 /* Frameworks */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = app_consultas;
+			name = Evertracker;
 			productName = app_consultas;
-			productReference = 3D35042E290AD664007C4FC7 /* app_consultas.app */;
+			productReference = 3D35042E290AD664007C4FC7 /* Evertracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D350429290AD663007C4FC7 /* Build configuration list for PBXProject "app_consultas" */;
+			buildConfigurationList = 3D350429290AD663007C4FC7 /* Build configuration list for PBXProject "Evertracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D35042D290AD663007C4FC7 /* app_consultas */,
+				3D35042D290AD663007C4FC7 /* Evertracker */,
 			);
 		};
 /* End PBXProject section */
@@ -370,6 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = app_consultas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Evertracker;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -388,6 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = app_consultas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Evertracker;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -403,7 +405,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D350429290AD663007C4FC7 /* Build configuration list for PBXProject "app_consultas" */ = {
+		3D350429290AD663007C4FC7 /* Build configuration list for PBXProject "Evertracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D35043E290AD668007C4FC7 /* Debug */,
@@ -412,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D350440290AD668007C4FC7 /* Build configuration list for PBXNativeTarget "app_consultas" */ = {
+		3D350440290AD668007C4FC7 /* Build configuration list for PBXNativeTarget "Evertracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D350441290AD668007C4FC7 /* Debug */,
