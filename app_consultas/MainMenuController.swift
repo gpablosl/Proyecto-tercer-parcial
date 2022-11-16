@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainMenuController.swift
 //  app_consultas
 //
 //  Created by Alumno on 27/10/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainMenuController: UIViewController {
     
     public var docentes : [Docente] = []
     

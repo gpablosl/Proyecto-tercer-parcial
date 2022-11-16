@@ -16,15 +16,15 @@
 		3D271DB6291164090003C9EC /* Docente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB5291164090003C9EC /* Docente.swift */; };
 		3D271DB8291164150003C9EC /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D271DB7291164150003C9EC /* Perfil.swift */; };
 		3D350432290AD664007C4FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D350431290AD664007C4FC7 /* AppDelegate.swift */; };
-		3D350434290AD664007C4FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D350433290AD664007C4FC7 /* ViewController.swift */; };
+		3D350434290AD664007C4FC7 /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D350433290AD664007C4FC7 /* MainMenuController.swift */; };
 		3D350437290AD664007C4FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D350435290AD664007C4FC7 /* Main.storyboard */; };
 		3D350439290AD668007C4FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D350438290AD668007C4FC7 /* Assets.xcassets */; };
 		3D35043C290AD668007C4FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D35043A290AD668007C4FC7 /* LaunchScreen.storyboard */; };
+		FB456B1429252D13008106D3 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB456B1329252D12008106D3 /* Montserrat-Medium.ttf */; };
 		FB4AE308291ABBEC00F2D8AF /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AE307291ABBEC00F2D8AF /* Contacto.swift */; };
 		FB4AE30A291ABBFA00F2D8AF /* ContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AE309291ABBFA00F2D8AF /* ContactoController.swift */; };
 		FB4AE30C291ABDA200F2D8AF /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AE30B291ABDA200F2D8AF /* CeldaContactoController.swift */; };
 		FB7787EE2923D6E0006CCE34 /* EditarContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7787ED2923D6E0006CCE34 /* EditarContactoController.swift */; };
-		FB7787F02923FA58006CCE34 /* Nexa-Trial-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB7787EF2923FA58006CCE34 /* Nexa-Trial-Light.ttf */; };
 		FB7819E8292284F90064A976 /* EditarDocenteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7819E7292284F90064A976 /* EditarDocenteController.swift */; };
 		FB78C45B291E91A400F66BD0 /* Pagos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78C45A291E91A400F66BD0 /* Pagos.swift */; };
 		FB78C45D291E93B400F66BD0 /* PagosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78C45C291E93B400F66BD0 /* PagosController.swift */; };
@@ -47,16 +47,16 @@
 		3D271DB7291164150003C9EC /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
 		3D35042E290AD664007C4FC7 /* app_consultas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_consultas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D350431290AD664007C4FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D350433290AD664007C4FC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D350433290AD664007C4FC7 /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
 		3D350436290AD664007C4FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D350438290AD668007C4FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D35043B290AD668007C4FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D35043D290AD668007C4FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB456B1329252D12008106D3 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		FB4AE307291ABBEC00F2D8AF /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 		FB4AE309291ABBFA00F2D8AF /* ContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoController.swift; sourceTree = "<group>"; };
 		FB4AE30B291ABDA200F2D8AF /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
 		FB7787ED2923D6E0006CCE34 /* EditarContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarContactoController.swift; sourceTree = "<group>"; };
-		FB7787EF2923FA58006CCE34 /* Nexa-Trial-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa-Trial-Light.ttf"; sourceTree = "<group>"; };
 		FB7819E7292284F90064A976 /* EditarDocenteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarDocenteController.swift; sourceTree = "<group>"; };
 		FB78C45A291E91A400F66BD0 /* Pagos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagos.swift; sourceTree = "<group>"; };
 		FB78C45C291E93B400F66BD0 /* PagosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosController.swift; sourceTree = "<group>"; };
@@ -98,9 +98,9 @@
 		3D350430290AD664007C4FC7 /* app_consultas */ = {
 			isa = PBXGroup;
 			children = (
-				FB7787EF2923FA58006CCE34 /* Nexa-Trial-Light.ttf */,
+				FB456B1329252D12008106D3 /* Montserrat-Medium.ttf */,
 				3D350431290AD664007C4FC7 /* AppDelegate.swift */,
-				3D350433290AD664007C4FC7 /* ViewController.swift */,
+				3D350433290AD664007C4FC7 /* MainMenuController.swift */,
 				3D350435290AD664007C4FC7 /* Main.storyboard */,
 				3D350438290AD668007C4FC7 /* Assets.xcassets */,
 				3D35043A290AD668007C4FC7 /* LaunchScreen.storyboard */,
@@ -190,7 +190,7 @@
 			files = (
 				3D35043C290AD668007C4FC7 /* LaunchScreen.storyboard in Resources */,
 				3D350439290AD668007C4FC7 /* Assets.xcassets in Resources */,
-				FB7787F02923FA58006CCE34 /* Nexa-Trial-Light.ttf in Resources */,
+				FB456B1429252D13008106D3 /* Montserrat-Medium.ttf in Resources */,
 				3D350437290AD664007C4FC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +211,7 @@
 				FB7BDA1F291958B200D8C47F /* CeldaDocenteController.swift in Sources */,
 				FB7787EE2923D6E0006CCE34 /* EditarContactoController.swift in Sources */,
 				FB7819E8292284F90064A976 /* EditarDocenteController.swift in Sources */,
-				3D350434290AD664007C4FC7 /* ViewController.swift in Sources */,
+				3D350434290AD664007C4FC7 /* MainMenuController.swift in Sources */,
 				FB78C45F291E93C400F66BD0 /* CeldaPagosController.swift in Sources */,
 				3D271DB8291164150003C9EC /* Perfil.swift in Sources */,
 				3D271DB0291163780003C9EC /* Materia.swift in Sources */,
@@ -370,6 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = app_consultas/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = app_consultas/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
